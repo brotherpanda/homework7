@@ -13,6 +13,7 @@ html {
     text-rendering: optimizeLegibility;
 }
 
+
 header{
     background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(../image/background1.png);
     background-size: cover;
@@ -124,7 +125,19 @@ h1{
     color: #fff
 }
 
+.section {
+    padding: 80px 0;
+}
 
+.head {
+    position: absolute;
+    padding-left: 30%;
+    font-size: 80px;
+}
+
+.information1 {
+    padding-top: 10%;
+}
 
 
 /*==========================================================================================
@@ -141,38 +154,38 @@ h1{
 
 
 /*==========================================================================================
-=====================================index2===============================================
+=====================================index3===============================================
 ==========================================================================================*/
 
 
 .index3{
-    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(../image/background2.jpg);
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(../image/background2.png);
     background-size: cover;
-    background-position: center;
+    background-position: ;
     height: 100vh;
 }
 
 
 /*==========================================================================================
-=====================================index2===============================================
+=====================================index4===============================================
 ==========================================================================================*/
 
 
 .index4{
-    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(../image/galery6.jpg);
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(../image/galery7.jpg);
     background-size: cover;
     background-position: center;
     height: 100vh;
 }
 
 /*==========================================================================================
-=====================================index2===============================================
+=====================================index5===============================================
 ==========================================================================================*/
 
 
-.index4{
-    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(../image/galery6.jpg);
+.index5{
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(../image/galery8.jpg);
     background-size: cover;
-    background-position: center;
+    background-position:center;
     height: 100vh;
 }

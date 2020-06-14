@@ -1,0 +1,129 @@
+.animation2 {
+  display: inline-block;
+  margin: 0 0.5rem;
+
+  animation: flash 2s ease-out 2s; 
+  animation-duration: 2s; 
+}
+
+.animation3 {
+  display: inline-block;
+  margin: 0 0.5rem;
+
+  animation: shakeX 4s ease-out 3s; 
+  animation-duration: 2s; 
+}
+
+.animation4 {
+  display: inline-block;
+  margin: 0 0.5rem;
+
+  animation: shakeY 6s ease-out 4s; 
+  animation-duration: 2s; 
+}
+
+.btn-full {
+    animation: falling 6s ease-out 5s;
+    transform-origin: bottom center;
+}
+
+@keyframes falling {
+    12% {
+        transform: rotateX(240deg);color:#e80ee4;
+    }
+    
+    24% {
+        transform: rotateX(150deg); background-color: white;
+    }
+    
+    36% {
+        transform: rotateX(200deg);
+    }
+    
+    48% {
+        transform: rotateX(175deg);color:green; background-color: white;
+    }
+    
+    60%, 85% {
+        transform: rotateX(180deg);
+    }
+    
+    100% {
+        transform: rotateX(0deg); color:blue;
+    }
+}
+
+
+.w3 {
+	display: inline-block;
+  	margin: 0 0.5rem;
+
+  animation:fadeInLeft; 
+  animation-duration: 2s; 
+}
+
+.w4 {
+	display: inline-block;
+  	margin: 0 0.5rem;
+
+  animation:fadeInRight ease-out 1s; 
+  animation-duration: 2s; 
+}
+
+.w5  {
+	display: inline-block;
+  	margin: 0 0.5rem;
+
+  animation:fadeInUpBig ; 
+  animation-duration: 3s;
+}
+
+/*index3*/
+
+.index3ul  {
+  	margin: 0 0.5rem; 
+
+  animation:jackInTheBox ; 
+  animation-duration: 3s;
+}
+
+.flip  {
+  	margin: 0 0.5rem; 
+
+  animation:flipInX ; 
+  animation-duration: 3s;
+}
+
+
+.hinge  {
+	display: inline-block;
+  	margin: 0 0.5rem;
+
+  animation:hinge 6s ease-out 5s ; 
+  animation-duration: 3s;
+}
+
+/*index4*/
+
+.ground {
+	display: inline-block;
+  	margin: 0 0.5rem;
+
+  animation:rotateInDownLeft  ease-out  ; 
+  animation-duration: 3s;
+}
+.ground2 {
+	display: inline-block;
+  	margin: 0 0.5rem;
+
+  animation:lightSpeedInLeft  ease-out  ; 
+  animation-duration: 3s;
+}
+
+.ground3 {
+	display: inline-block;
+  	margin: 0 0.5rem;
+
+  animation:rotateInUpLeft  ease-out  ; 
+  animation-duration: 3s;
+}
